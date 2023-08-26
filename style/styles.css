@@ -11,8 +11,8 @@
     --main-color: #54B689;
     --main-text-color: #FFF;
     --border-color: #999;
-    --bio-bg-color: #1E2A3A;
-    --bio-border-color: #293544;
+    --bio-bg-color: #1f5bdd;
+    --bio-border-color: white;
     --about-bg-color: #111821;
   }
   
@@ -60,8 +60,9 @@
   #bio-image {
     width: 175px;
     height: 175px;
-    border-radius: 50%;
+    border-radius: 85px;
     margin-bottom: 25px;
+    background-color: #FFF;
   }
   
   #social-container {
@@ -192,7 +193,7 @@
     text-decoration: none;
   }
   /* Mobile */
-  @media(max-width: 450px) {
+  @media(max-width: 600px) {
   
     #container {
       flex-direction: column;
